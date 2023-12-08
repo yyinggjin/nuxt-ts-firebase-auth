@@ -1,0 +1,41 @@
+@import "./vars.scss";
+@import "./typography.scss";
+@import "./font.scss";
+@import "./input.scss";
+
+body * {
+    font-family: $font-family, "Roboto", sans-serif;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.not-allowed {
+    cursor: not-allowed;
+}
+
+.wait {
+    cursor: wait;
+}
+
+button {
+    &.qc-btn {
+        border-radius: 8px;
+    }
+}
+
+.w100 {
+    width: 100% !important;
+}
+
+.w50 {
+    width: 50% !important;
+}
+
+.sticky-top {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}

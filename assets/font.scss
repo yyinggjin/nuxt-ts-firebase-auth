@@ -1,0 +1,65 @@
+
+@font-face {
+    font-display: swap;
+    font-family: $font-family;
+    font-weight: 300;
+    font-style: normal;
+    src: url("~/assets/fonts/DBHeavent/v3.2/DBHeavent-Light.eot");
+    src: url("~/assets/fonts/DBHeavent/v3.2/DBHeavent-Light.eot?#iefix") format("embedded-opentype"),
+        url("~/assets/fonts/DBHeavent/v3.2/DBHeavent-Light.woff2") format("woff2"),
+        url("~/assets/fonts/DBHeavent/v3.2/DBHeavent-Light.woff") format("woff"),
+        url("~/assets/fonts/DBHeavent/v3.2/DBHeavent-Light.ttf") format("truetype"),
+        url("~/assets/fonts/DBHeavent/v3.2/DBHeavent-Light.svg#DBHeavent-Light") format("svg");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: $font-family;
+    font-weight: 400;
+    font-style: normal;
+    src: url("~/assets/fonts/DBHeavent/v3.2/DBHeavent.eot");
+    src: url("~/assets/fonts/DBHeavent/v3.2/DBHeavent.eot?#iefix") format("embedded-opentype"),
+        url("~/assets/fonts/DBHeavent/v3.2/DBHeavent.woff2") format("woff2"),
+        url("~/assets/fonts/DBHeavent/v3.2/DBHeavent.woff") format("woff"),
+        url("~/assets/fonts/DBHeavent/v3.2/DBHeavent.ttf") format("truetype"),
+        url("~/assets/fonts/DBHeavent/v3.2/DBHeavent.svg#DBHeavent") format("svg");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: $font-family;
+    font-weight: 500;
+    font-style: normal;
+    src: url("~/assets/fonts/DBHeavent/v3.2/DBHeavent-Med.eot");
+    src: url("~/assets/fonts/DBHeavent/v3.2/DBHeavent-Med.eot?#iefix") format("embedded-opentype"),
+        url("~/assets/fonts/DBHeavent/v3.2/DBHeavent-Med.woff2") format("woff2"),
+        url("~/assets/fonts/DBHeavent/v3.2/DBHeavent-Med.woff") format("woff"),
+        url("~/assets/fonts/DBHeavent/v3.2/DBHeavent-Med.ttf") format("truetype"),
+        url("~/assets/fonts/DBHeavent/v3.2/DBHeavent-Med.svg#DBHeavent-Med") format("svg");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: $font-family;
+    font-weight: 700;
+    font-style: normal;
+    src: url("~/assets/fonts/DBHeavent/v3.2/DBHeavent-Bold.eot");
+    src: url("~/assets/fonts/DBHeavent/v3.2/DBHeavent-Bold.eot?#iefix") format("embedded-opentype"),
+        url("~/assets/fonts/DBHeavent/v3.2/DBHeavent-Bold.woff2") format("woff2"),
+        url("~/assets/fonts/DBHeavent/v3.2/DBHeavent-Bold.woff") format("woff"),
+        url("~/assets/fonts/DBHeavent/v3.2/DBHeavent-Bold.ttf") format("truetype"),
+        url("~/assets/fonts/DBHeavent/v3.2/DBHeavent-Bold.svg#DBHeavent-Bold") format("svg");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: $font-family-en;
+    font-weight: 700;
+    font-style: normal;
+    src: url("~/assets/fonts/Poppins/Poppins-Bold.eot");
+    src: url("~/assets/fonts/Poppins/Poppins-Bold.eot?#iefix") format("embedded-opentype"),
+        url("~/assets/fonts/Poppins/Poppins-Bold.woff2") format("woff2"),
+        url("~/assets/fonts/Poppins/Poppins-Bold.woff") format("woff"),
+        url("~/assets/fonts/Poppins/Poppins-Bold.ttf") format("truetype"),
+        url("~/assets/fonts/Poppins/Poppins-Bold.svg#Poppins-Bold") format("svg");
+}

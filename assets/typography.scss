@@ -1,0 +1,155 @@
+// ----------- text colors -----------
+.text-white {
+    color: white !important;
+}
+
+.text-primary {
+    color: $color-primary;
+}
+
+.text-secondary {
+    color: $color-secondary !important;
+}
+
+.text-info {
+    color: $color-info !important;
+}
+
+.text-gray {
+    color: $color-gray !important;
+}
+
+.text-gray-lighter {
+    color: $color-gray-lighter !important;
+}
+
+.text-gray-darker {
+    color: $color-primary-darken-1 !important;
+}
+
+.text-error {
+    color: $color-error !important;
+}
+
+.text-link-blue {
+    color: $color-link-blue !important;
+}
+
+.text-dark {
+    color: $color-dark !important;
+}
+// ----------- text content style -----------
+
+.q-chang-h1 {
+    font-size: 84px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: normal;
+}
+
+.q-chang-h2 {
+    font-size: 67px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: normal;
+}
+
+.q-chang-h4 {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: normal;
+}
+
+.q-chang-h5 {
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: normal;
+}
+
+.q-chang-modal-title {
+    font-size: 32px;
+    letter-spacing: normal;
+}
+
+.q-chang-text-title {
+    font-size: 24px;
+    letter-spacing: normal;
+}
+
+.q-chang-page-title {
+    font-size: 3.5em;
+    letter-spacing: normal;
+}
+
+.q-chang-page-subtitle {
+    font-size: 1.8em;
+    letter-spacing: normal;
+}
+
+.q-chang-text-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: normal;
+}
+
+.q-chang-text-1 {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: normal;
+}
+
+.q-chang-text-2 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: normal;
+}
+
+.q-chang-text-3 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: normal;
+}
+
+.q-chang-text-4 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: normal;
+}
+
+.q-chang-text-5 {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: normal;
+}
+
+.q-chang-text-caption {
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: normal;
+}
+
+.q-chang-text-caption-2 {
+    font-size: 14px;
+    line-height: 14px;
+}
+
+// ----------- text behaviour -----------
+
+.text-link {
+    &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
+
+.text-wrap {
+    overflow-wrap: break-word;
+}
